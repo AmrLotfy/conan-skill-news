@@ -3,9 +3,17 @@
   "version": "1.0.0",
   "description": "News skill for Conan AI — top headlines via NewsAPI (supports Arabic sources)",
   "main": "index.js",
-  "keywords": ["conan-skill", "news", "newsapi", "arabic", "ai-agent"],
-  "author": "Hollat",
+  "keywords": ["conan-skill", "news", "newsapi", "arabic", "ai-agent", "conan-ai"],
+  "author": "Amr Lotfy",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AmrLotfy/conan-skill-news.git"
+  },
+  "homepage": "https://github.com/AmrLotfy/conan-skill-news#readme",
+  "bugs": { "url": "https://github.com/AmrLotfy/conan-skill-news/issues" },
+  "type": "commonjs",
+  "engines": { "node": ">=18" },
   "dependencies": {
     "axios": "^1.6.0"
   }
